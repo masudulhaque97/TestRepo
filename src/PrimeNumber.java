@@ -6,10 +6,8 @@ public class PrimeNumber {
 		int n;
 		int status = 1;
 		int num = 1;
-
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number of prime numbers");
-		 
 		n = scanner.nextInt();
 
 		for (int i = 2; i <= 10;) {
